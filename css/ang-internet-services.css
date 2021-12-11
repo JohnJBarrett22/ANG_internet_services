@@ -1,3 +1,7 @@
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -8,10 +12,6 @@
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
   grid-column-gap: 16px;
-}
-
-.w-form-formrecaptcha {
-  margin-bottom: 8px;
 }
 
 .w-commerce-commercecheckoutformcontainer {
@@ -1782,26 +1782,6 @@
   text-shadow: 1px 1px 1px #87bf40;
 }
 
-._2_block_row_ailment_right {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 300px;
-  margin-bottom: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border-style: none none solid;
-  border-width: 1px;
-  border-color: #000 #000 #3898ec;
-}
-
 ._2_block {
   overflow: visible;
   width: 50%;
@@ -1908,6 +1888,11 @@
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2079,10 +2064,6 @@
   font-size: 22px;
 }
 
-.ailment_list_item {
-  color: #fff;
-}
-
 .contact_page_section {
   height: auto;
   padding: 100px 0px;
@@ -2094,9 +2075,9 @@
   padding-bottom: 100px;
 }
 
-.testimonials_section {
+.industries_section {
   display: block;
-  height: 100vh;
+  height: auto;
   margin-top: 0px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -2140,30 +2121,6 @@
   margin-right: 15px;
 }
 
-.horizontal_wrapper {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
-  overflow: hidden;
-  width: 100vw;
-}
-
-.horizontal_scroll_content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 4000px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .horizontal_progress {
   position: fixed;
   left: 0%;
@@ -2173,42 +2130,6 @@
   width: 0%;
   height: 8px;
   background-color: #3898ec;
-}
-
-.testimonial_card_1 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #93c7f4;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-._5_star {
-  display: block;
-  margin-right: 0px;
-  margin-left: auto;
-  padding-right: 0px;
-  padding-left: 0px;
-  text-align: right;
 }
 
 .testimonial_author {
@@ -2234,276 +2155,6 @@
   font-size: 14px;
   line-height: 21px;
   text-align: right;
-}
-
-.testimonial_card_2 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #81bdf2;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_3 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #6eb4f1;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_4 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #5caaef;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_5 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #49a1ed;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_6 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #3898ec;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_7 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #248dea;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_8 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1583e4;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_9 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1479d1;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_10 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #126ebe;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_11 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1063ac;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
 }
 
 .blue_divide {
@@ -2600,12 +2251,6 @@
   border-radius: 20px;
 }
 
-.conditions_treated_page {
-  height: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .a-g_button {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2629,74 +2274,6 @@
   text-align: center;
 }
 
-.ryu_button_testimonial {
-  position: fixed;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 135px;
-  height: 50px;
-  margin-top: 159px;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 20px;
-  opacity: 0;
-  font-size: 14px;
-  text-align: center;
-}
-
-._2_block_row_ailment_left {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 300px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border-style: none none solid;
-  border-width: 1px;
-  border-color: #000 #000 #3898ec;
-}
-
-.ailment_h2 {
-  font-family: Inter, sans-serif;
-  color: #fff;
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-  text-shadow: 1px 1px 1px #3898ec;
-}
-
-._3_block_row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-._3_block {
-  width: 33.3%;
-}
-
 ._2_block_row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2716,272 +2293,6 @@
 
 ._2_block_row.margin_top {
   margin-top: 15px;
-}
-
-.neurological_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/man_suffering_from_headache.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.services_mask_right {
-  height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(60%, transparent));
-  background-image: linear-gradient(90deg, #fff, transparent 60%);
-}
-
-.dermatological_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/girl_with_acne.jpg');
-  background-position: 100% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.musculoskeletal_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/man_with_back_pain.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.services_mask_left {
-  height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, transparent), to(#fff));
-  background-image: linear-gradient(90deg, transparent 40%, #fff);
-}
-
-.urological_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/lady_dealing_with_urinary_problems.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.gastrointestinal_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/woman_with_ibs.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.addiction_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/man_battling_addiction.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.respitory_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/senior_man_with_earache.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.reproductive_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/woman_pregnant_with_baby.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.chronic_conditions_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/male_with_kidney_pain.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.ent_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/female_sick_with_cold.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.psychological_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/teen_girl_suffering_with_depression.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.circulatory_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/senior_woman_with_heart_problem.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.autoimmune_disorders_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/man_with_autoimmune_disease.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-.immune_system_block {
-  overflow: visible;
-  width: 50%;
-  height: 100%;
-  padding: 0px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  background-image: url('../images/man_with_weak_immune_system.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
-._2_block_middle {
-  overflow: visible;
-  width: 50%;
-  padding: 0px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  -o-object-fit: fill;
-  object-fit: fill;
 }
 
 .a-g_button_schedule {
@@ -3111,11 +2422,6 @@
 
 .icon_para {
   text-align: left;
-}
-
-.insurance_block {
-  margin-top: 50px;
-  margin-bottom: 0px;
 }
 
 .services_picture_section_mobile {
@@ -3261,17 +2567,6 @@
   text-shadow: 1px 1px 1px #3898ec;
 }
 
-.testimonials_section_mobile {
-  display: none;
-}
-
-.a-g_360_block {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0px;
-  padding: 0px;
-}
-
 ._360_frame_block {
   width: 50%;
   height: 400px;
@@ -3343,63 +2638,6 @@
   font-size: 12px;
 }
 
-.hours_grid_block {
-  padding: 0px;
-  -ms-grid-columns: 0.25fr 1fr;
-  grid-template-columns: 0.25fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-  border: 1px none #000;
-  text-align: left;
-}
-
-._5_block_row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin-top: 50px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-}
-
-._5_block {
-  width: 20%;
-  margin: 0px 15px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-}
-
-._5_block_right {
-  width: 20%;
-  margin: 0px 0px 0px 7.5px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-}
-
-._5_block_left {
-  width: 20%;
-  margin: 0px 7.5px 0px 0px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-}
-
-.gallery_image {
-  width: 100%;
-  height: 150px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 50%;
-  object-position: 50% 50%;
-}
-
 .block_text_pre_h2_left {
   margin-top: 5px;
   margin-bottom: 20px;
@@ -3407,171 +2645,6 @@
   font-weight: 700;
   text-align: left;
   letter-spacing: 3px;
-}
-
-.circle_div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  max-height: 250px;
-  max-width: 250px;
-  min-height: 250px;
-  min-width: 250px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 1000px;
-  background-color: #fff;
-  box-shadow: 7px 7px 150px 0 rgba(84, 102, 129, 0.08);
-}
-
-.arrow_image_left_mobile {
-  display: none;
-}
-
-.circle_wrapper {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
-  padding: 10px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.counter {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  color: #3898ec;
-  font-size: 52px;
-  line-height: 52px;
-}
-
-.statistics_title_wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 35px;
-  padding-right: 10px;
-  padding-left: 10px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: left;
-}
-
-.arrow_wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.arrow_image_left {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-.statistics_container {
-  width: 100%;
-  max-width: 1240px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.featured_number_wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 32px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-}
-
-.statistics_block {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 120px 5%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #f0f7ff;
-  color: #f7f7f7;
-}
-
-.circle_titles {
-  color: #546681;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.arrow_image_right {
-  -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
-  transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
 
 .nav_bar_h3 {
@@ -3595,59 +2668,12 @@
   text-shadow: 1px 1px 1px #87bf40;
 }
 
-._2_block_row_mini {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.paragraph-9 {
-  color: #2196c8;
-  font-weight: 700;
-}
-
 .success-message {
   background-color: #f0f7ff;
 }
 
 .success-message-2 {
   background-color: #f0f7ff;
-}
-
-.lottie-animation-2 {
-  width: 35px;
-  height: 35px;
-  margin-top: -10px;
-  margin-bottom: -1px;
-  margin-left: -5px;
-  padding-bottom: 0px;
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-
-.div-block {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.arrow_image_right_mobile {
-  display: none;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
 
 .footer_grid_1_block {
@@ -3671,10 +2697,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.lottie-animation-3 {
-  margin-bottom: 0px;
 }
 
 ._4_block_row_footer {
@@ -3703,42 +2725,6 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.gallery_image_2 {
-  width: 100%;
-  height: 150px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 30%;
-  object-position: 50% 30%;
-}
-
-.gallery_image_3 {
-  width: 100%;
-  height: 150px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 25%;
-  object-position: 50% 25%;
-}
-
-.gallery_image_4 {
-  width: 100%;
-  height: 150px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 25%;
-  object-position: 50% 25%;
-}
-
-.gallery_image_5 {
-  width: 100%;
-  height: 150px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 0%;
-  object-position: 50% 0%;
 }
 
 .service_area_section {
@@ -3979,23 +2965,7 @@
 .acu_img_block {
   width: 100%;
   height: 300px;
-  background-image: url('../images/needles_close_up.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.tch_img_block {
-  width: 100%;
-  height: 300px;
-  background-image: url('../images/chinese_herbal_remedies.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.cup_img_block {
-  width: 100%;
-  height: 300px;
-  background-image: url('../images/best_cupping_in_los_angeles.jpg');
+  background-image: url('../images/remote_support_services.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -4263,7 +3233,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #87bf40;
+  background-color: #de1f27;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -4291,18 +3261,6 @@
   margin-bottom: 10px;
   border-radius: 4px;
   background-color: #f4f6f8;
-}
-
-.heading {
-  display: block;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
 }
 
 .paragraph-11 {
@@ -4354,96 +3312,14 @@
   background-attachment: fixed;
 }
 
-.slide {
-  background-color: #000;
-}
-
 .image-4 {
   margin-top: 0px;
   padding-top: 0px;
 }
 
-.div-block-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 85%;
-  margin: auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.div-block-3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 30%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.div-block-4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 70%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
-.paragraph-12 {
-  color: #fff;
-}
-
-.image-5 {
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 100%;
-}
-
-.text-block-5 {
-  color: #fff;
-  font-weight: 700;
-}
-
-.div-block-5 {
-  background-color: #4e1a1a;
-}
-
-.paragraph-13 {
-  color: #fff;
-}
-
 .user-name-t2 {
   margin-top: 30px;
-  color: #f5b827;
+  color: #87bf40;
   font-size: 16px;
   font-weight: 700;
 }
@@ -4453,14 +3329,9 @@
   box-shadow: 4px 9px 15px 0 #de1f27;
 }
 
-.testimonials-wrapper-t2 {
-  width: 100%;
-  max-width: 800px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .a-g_slider {
+  margin-top: 75px;
+  margin-bottom: 75px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4518,6 +3389,84 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
+}
+
+._4_block {
+  width: 25%;
+  max-width: 25%;
+}
+
+.client_logo_block {
+  width: 60%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.client_logo_name_block {
+  margin-top: 10px;
+  color: #ffda3a;
+  font-weight: 700;
+}
+
+._3_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._3_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.3%;
+  height: 450px;
+  max-width: 33.3%;
+  margin: 15px;
+  padding: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.industry_icon {
+  width: 100px;
+  height: 100px;
+  min-width: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.client_spacer_blocker {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 175px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.industry_card_h3 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4580,19 +3529,9 @@
     padding-bottom: 125px;
   }
 
-  .testimonials_section {
+  .industries_section {
     padding-top: 125px;
     padding-bottom: 125px;
-  }
-
-  .conditions_treated_page {
-    padding-top: 125px;
-    padding-bottom: 125px;
-  }
-
-  .ryu_button_testimonial {
-    bottom: 4%;
-    margin-top: 313px;
   }
 
   .a-g_button_schedule {
@@ -4647,10 +3586,6 @@
 
   .block_text_pre_h2 {
     padding-top: 0px;
-  }
-
-  ._5_block_row {
-    margin-top: -5px;
   }
 
   .block_text_pre_h2_left {
@@ -4790,10 +3725,6 @@
     margin-top: 7px;
   }
 
-  ._2_block_row_ailment_right {
-    height: 375px;
-  }
-
   ._2_block {
     width: 100%;
     padding-right: 0px;
@@ -4861,7 +3792,7 @@
     padding-bottom: 75px;
   }
 
-  .testimonials_section {
+  .industries_section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
@@ -4889,76 +3820,6 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-
-  .neurological_block {
-    width: 40%;
-  }
-
-  .services_mask_right {
-    background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(35%, transparent));
-    background-image: linear-gradient(90deg, #fff, transparent 35%);
-  }
-
-  .dermatological_block {
-    width: 40%;
-  }
-
-  .musculoskeletal_block {
-    width: 40%;
-  }
-
-  .services_mask_left {
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(65%, transparent), to(#fff));
-    background-image: linear-gradient(90deg, transparent 65%, #fff);
-  }
-
-  .urological_block {
-    width: 40%;
-  }
-
-  .gastrointestinal_block {
-    width: 40%;
-  }
-
-  .addiction_block {
-    width: 40%;
-  }
-
-  .respitory_block {
-    width: 40%;
-  }
-
-  .reproductive_block {
-    width: 40%;
-  }
-
-  .chronic_conditions_block {
-    width: 40%;
-  }
-
-  .ent_block {
-    width: 40%;
-  }
-
-  .psychological_block {
-    width: 40%;
-  }
-
-  .circulatory_block {
-    width: 40%;
-  }
-
-  .autoimmune_disorders_block {
-    width: 40%;
-  }
-
-  .immune_system_block {
-    width: 40%;
-  }
-
-  ._2_block_middle {
-    width: 60%;
   }
 
   .services_content_h3 {
@@ -5017,67 +3878,14 @@
     padding-bottom: 75px;
   }
 
-  ._5_block {
-    margin-right: 3px;
-    margin-left: 3px;
-  }
-
-  ._5_block_right {
-    margin-left: 3px;
-  }
-
-  ._5_block_left {
-    margin-right: 3px;
-  }
-
   .block_text_pre_h2_left {
     margin-top: 0px;
     margin-bottom: 7px;
   }
 
-  .arrow_image_left_mobile {
-    position: relative;
-    left: 55px;
-    display: block;
-  }
-
-  .circle_wrapper {
-    width: 100%;
-  }
-
-  .arrow_wrapper {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  .arrow_image_left {
-    display: none;
-  }
-
-  .featured_number_wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .arrow_image_right {
-    display: none;
-  }
-
   .nav_bar_h3 {
     margin-top: 0px;
     padding-top: 0px;
-  }
-
-  .arrow_image_right_mobile {
-    position: relative;
-    left: 55px;
-    display: block;
-    margin-right: 200px;
-    -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
-    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
   }
 
   .service_area_section {
@@ -5307,14 +4115,6 @@
     align-self: center;
   }
 
-  .horizontal_wrapper {
-    top: 35px;
-  }
-
-  .testimonial_card_1 {
-    height: 500px;
-  }
-
   .filter-button.ryu_testimonial_button {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5326,10 +4126,6 @@
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-  }
-
-  ._2_block_row_ailment_left {
-    height: 375px;
   }
 
   ._2_block_row {
@@ -5370,10 +4166,6 @@
     line-height: 16px;
   }
 
-  .a-g_360_block {
-    height: 300px;
-  }
-
   ._360_frame_block {
     width: 100%;
     height: auto;
@@ -5402,47 +4194,9 @@
     margin-left: auto;
   }
 
-  ._5_block_row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  ._5_block {
-    margin-right: 1px;
-    margin-left: 1px;
-  }
-
-  ._5_block_right {
-    margin-left: 1px;
-  }
-
-  ._5_block_left {
-    margin-right: 1px;
-  }
-
-  .gallery_image {
-    -o-object-position: 60% 50%;
-    object-position: 60% 50%;
-  }
-
   .nav_bar_h3 {
     font-size: 20px;
     line-height: 24px;
-  }
-
-  ._2_block_row_mini {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
   }
 
   .footer_grid_1_block {
@@ -5479,11 +4233,6 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-
-  .gallery_image_3 {
-    -o-object-position: 45% 25%;
-    object-position: 45% 25%;
   }
 
   .a-g_blog_block {
@@ -5713,14 +4462,6 @@
     line-height: 30px;
   }
 
-  ._2_block_row_ailment_right {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 250px;
-  }
-
   ._2_block {
     width: 100%;
   }
@@ -5862,11 +4603,6 @@
     line-height: 24px;
   }
 
-  .ailment_list_item {
-    font-size: 12px;
-    line-height: 14px;
-  }
-
   .contact_page_section {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -5877,7 +4613,7 @@
     padding-bottom: 25px;
   }
 
-  .testimonials_section {
+  .industries_section {
     display: none;
     height: 4500px;
   }
@@ -5892,82 +4628,12 @@
     margin-right: 0px;
   }
 
-  .horizontal_scroll_content {
-    width: 4500px;
-  }
-
-  .testimonial_card_1 {
-    width: 290px;
-    height: 600px;
-  }
-
-  ._5_star {
-    margin-left: auto;
-    float: none;
-    clear: right;
-    direction: ltr;
-    -o-object-fit: fill;
-    object-fit: fill;
-    -o-object-position: 50% 50%;
-    object-position: 50% 50%;
-  }
-
   .testimonial_author {
     margin-left: 0px;
   }
 
   .testimonial_date {
     margin-left: 0px;
-  }
-
-  .testimonial_card_2 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_3 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_4 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_5 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_6 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_7 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_8 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_9 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_10 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_11 {
-    width: 270px;
-    height: 600px;
   }
 
   .testimonial_block.mix.yelp._2008 {
@@ -6068,26 +4734,6 @@
     margin-bottom: 10px;
   }
 
-  .conditions_treated_page {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  ._2_block_row_ailment_left {
-    height: 250px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .ailment_h2 {
-    font-size: 20px;
-    line-height: 20px;
-  }
-
-  ._3_block {
-    opacity: 1;
-  }
-
   ._2_block_row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -6102,148 +4748,6 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .neurological_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .services_mask_right {
-    display: none;
-  }
-
-  .dermatological_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .musculoskeletal_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .services_mask_left {
-    display: none;
-    height: auto;
-  }
-
-  .urological_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .gastrointestinal_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .addiction_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .respitory_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .reproductive_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .chronic_conditions_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .ent_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .psychological_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .circulatory_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .autoimmune_disorders_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  .immune_system_block {
-    position: absolute;
-    z-index: -1;
-    display: block;
-    width: 100%;
-    height: 250px;
-    opacity: 0.25;
-  }
-
-  ._2_block_middle {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
   }
 
   .services_content_h3 {
@@ -6285,11 +4789,6 @@
     text-align: left;
   }
 
-  .ailment_list {
-    padding-left: 0px;
-    text-align: center;
-  }
-
   .nav-menu {
     background-color: #fafafa;
   }
@@ -6326,7 +4825,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url('../images/acupuncture_treatment.jpg');
+    background-image: url('../images/computer_solutions_for_offices.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6371,7 +4870,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url('../images/traditional_chinese_herbal_medicine.jpg');
+    background-image: url('../images/remote_support_services.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6385,7 +4884,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url('../images/cupping_treatment.jpg');
+    background-image: url('../images/remote_support_services.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6400,7 +4899,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     border: 1px none #000;
-    background-image: url('../images/ear_acupuncture.jpg');
+    background-image: url('../images/isaac_boudaie.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6414,7 +4913,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url('../images/moxibustion_treatment.jpg');
+    background-image: url('../images/remote_support_services.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6429,7 +4928,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     border: 1px none #000;
-    background-image: url('../images/heat_lamp_therapy.jpg');
+    background-image: url('../images/motherboard_diagnostic_repair.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6485,32 +4984,6 @@
     line-height: 30px;
   }
 
-  .testimonials_section_mobile {
-    display: block;
-    height: 100vh;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  .slider {
-    height: 100%;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    background-color: #fff;
-  }
-
-  .slide-nav {
-    position: static;
-  }
-
-  .left-arrow {
-    display: none;
-  }
-
-  .right-arrow {
-    display: none;
-  }
-
   ._360_frame_block {
     display: block;
     width: 100%;
@@ -6524,10 +4997,6 @@
   .footer_hours {
     font-size: 15px;
     line-height: 22.5px;
-  }
-
-  .gallery_lightbox_link {
-    margin-bottom: 15px;
   }
 
   .form-block {
@@ -6567,68 +5036,6 @@
     padding-bottom: 25px;
   }
 
-  .hours_grid_block {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  ._5_block_row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
-  ._5_block {
-    display: block;
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
-  ._5_block_right {
-    display: block;
-    width: 100%;
-    margin-left: 0px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
-  ._5_block_left {
-    display: block;
-    width: 100%;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
-  .gallery_image {
-    height: 200px;
-    -o-object-position: 50% 22%;
-    object-position: 50% 22%;
-  }
-
-  .arrow_wrapper {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
   .nav_bar_h3 {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -6636,30 +5043,6 @@
     justify-content: space-between;
     font-size: 13px;
     text-align: center;
-  }
-
-  ._2_block_row_mini {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .arrow_image_right_mobile {
-    left: auto;
-    right: 55px;
-    margin-right: 45px;
-    -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
-    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
   }
 
   .footer_grid_1_block {
@@ -6705,30 +5088,6 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .gallery_image_2 {
-    height: 200px;
-    -o-object-position: 50% 33%;
-    object-position: 50% 33%;
-  }
-
-  .gallery_image_3 {
-    height: 200px;
-    -o-object-position: 25% 22%;
-    object-position: 25% 22%;
-  }
-
-  .gallery_image_4 {
-    height: 200px;
-    -o-object-position: 50% 22%;
-    object-position: 50% 22%;
-  }
-
-  .gallery_image_5 {
-    height: 200px;
-    -o-object-position: 50% 10%;
-    object-position: 50% 10%;
   }
 
   .service_area_section {
