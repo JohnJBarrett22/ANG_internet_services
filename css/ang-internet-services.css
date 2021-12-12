@@ -1723,7 +1723,7 @@
 .hero_section {
   height: 100vh;
   padding-top: 295px;
-  background-image: url('../images/los_angeles_internet_services.jpg');
+  background-image: url('../images/los_angeles_internet_services.png');
   background-position: 50% 50%;
   background-size: cover;
   opacity: 1;
@@ -2316,6 +2316,7 @@
   border-radius: 20px;
   background-color: #f5b827;
   font-size: 14px;
+  font-weight: 700;
   text-align: center;
   text-shadow: none;
 }
@@ -2506,8 +2507,8 @@
   color: #fff;
 }
 
-.blue_link {
-  color: #2196c8;
+.yellow_link {
+  color: #ffda3a;
   font-weight: 700;
   text-decoration: none;
 }
@@ -2780,6 +2781,10 @@
   background-color: #fff;
   -webkit-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
+}
+
+.cms_block:hover {
+  box-shadow: 4px 4px 20px 3px #de1f27;
 }
 
 .card_top {
@@ -3368,19 +3373,22 @@
 }
 
 .slide-nav-t2 {
-  left: 141px;
+  left: 0%;
   top: 220px;
   right: 0%;
-  bottom: 23px;
+  bottom: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 200px;
+  margin-top: 100px;
+  margin-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  opacity: 1;
   font-size: 14px;
 }
 
@@ -3466,6 +3474,29 @@
 }
 
 .industry_card_h3 {
+  text-align: center;
+}
+
+.a-g_button_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 165px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f5b827;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -3637,7 +3668,7 @@
 @media screen and (min-width: 1440px) {
   .hero_section {
     padding-top: 325px;
-    background-image: url('../images/ryu_acupuncture.jpg');
+    background-image: url('../images/los_angeles_internet_services.jpg');
   }
 
   .parallax_block_data {
@@ -3842,7 +3873,7 @@
     line-height: 25px;
   }
 
-  .blue_link {
+  .yellow_link {
     text-align: left;
   }
 
