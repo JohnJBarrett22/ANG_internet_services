@@ -3345,6 +3345,7 @@
 }
 
 .user-picture-t2 {
+  max-width: 75%;
   border-radius: 80px 10px 80px 80px;
   box-shadow: 4px 9px 15px 0 #de1f27;
 }
@@ -3360,7 +3361,7 @@
 }
 
 .text-wrapper-t2 {
-  max-width: 300px;
+  max-width: 500px;
   margin-left: 60px;
 }
 
@@ -3409,8 +3410,8 @@
 
 .quote-t2 {
   color: #fff;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 14px;
   font-weight: 500;
 }
 
