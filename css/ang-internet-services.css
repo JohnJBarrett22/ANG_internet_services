@@ -2689,7 +2689,27 @@
   text-align: left;
 }
 
+.brand_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .link-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
 }
 
@@ -2777,7 +2797,7 @@
   align-items: flex-start;
   border-style: none;
   border-width: 1px;
-  border-color: #1063ac;
+  border-color: #87bf40;
   background-color: #fff;
   -webkit-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
@@ -2798,7 +2818,7 @@
   padding: 30px;
   border-style: none;
   border-width: 1px;
-  border-color: #1063ac;
+  border-color: #87bf40;
   border-radius: 0px;
   background-color: #f0f7ff;
   background-clip: border-box;
@@ -3317,11 +3337,6 @@
   background-attachment: fixed;
 }
 
-.image-4 {
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
 .user-name-t2 {
   margin-top: 30px;
   color: #87bf40;
@@ -3474,29 +3489,6 @@
 }
 
 .industry_card_h3 {
-  text-align: center;
-}
-
-.a-g_button_left {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 165px;
-  height: 50px;
-  margin-right: auto;
-  margin-left: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 20px;
-  background-color: #f5b827;
-  font-size: 14px;
   text-align: center;
 }
 
