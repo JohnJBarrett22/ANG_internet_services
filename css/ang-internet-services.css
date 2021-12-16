@@ -2195,6 +2195,22 @@
   border-bottom: 1px solid #3898ec;
 }
 
+.testimonial_block.mix.yelp._2018 {
+  border-bottom-color: #2196c8;
+}
+
+.testimonial_block.mix.yelp._2019 {
+  border-bottom-color: #2196c8;
+}
+
+.testimonial_block.mix.yelp._2021 {
+  border-bottom-color: #2196c8;
+}
+
+.testimonial_block.mix.google._2018 {
+  border-bottom-color: #2196c8;
+}
+
 .testimonial_image {
   display: block;
   width: 55px;
