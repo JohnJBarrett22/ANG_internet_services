@@ -1793,7 +1793,7 @@
 .section_h2 {
   margin-top: 15px;
   margin-bottom: 25px;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   font-size: 40px;
   line-height: 40px;
@@ -1871,12 +1871,11 @@
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fafafa;
   font-size: 80px;
   line-height: 80px;
   text-align: center;
-  text-shadow: 2px 2px 3px #2196c8;
 }
 
 .parallax_block_data {
@@ -1989,7 +1988,7 @@
 }
 
 .card_h3 {
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -2224,13 +2223,6 @@
   width: 85px;
   margin-left: 0px;
   padding-left: 0px;
-  text-align: right;
-}
-
-.testimonial_location {
-  margin-left: 239px;
-  font-size: 14px;
-  line-height: 21px;
   text-align: right;
 }
 
@@ -2551,7 +2543,7 @@
 
 .a-g_body {
   background-color: #000;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   font-size: 15px;
   line-height: 22.5px;
@@ -3078,14 +3070,6 @@
   text-decoration: none;
 }
 
-.italic-text {
-  font-style: normal;
-}
-
-.italic-text-2 {
-  font-style: normal;
-}
-
 .sitemap_h2 {
   font-size: 18px;
   line-height: 24px;
@@ -3413,6 +3397,7 @@
 }
 
 .industry_card_h3 {
+  color: #000;
   text-align: center;
 }
 
@@ -3555,7 +3540,7 @@
 .section_h3 {
   margin-top: 15px;
   margin-bottom: 25px;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   font-size: 24px;
   line-height: 30px;
@@ -3650,6 +3635,54 @@
 
 .list-item-20 {
   color: #fff;
+}
+
+.paragraph-12 {
+  color: #000;
+}
+
+.paragraph-13 {
+  color: #000;
+}
+
+.paragraph-14 {
+  color: #000;
+}
+
+.paragraph-15 {
+  color: #000;
+}
+
+.paragraph-16 {
+  color: #000;
+}
+
+.paragraph-17 {
+  color: #000;
+}
+
+.bold-text-5 {
+  font-family: Lato, sans-serif;
+}
+
+.a-g_menu_drop {
+  background-color: #000;
+}
+
+.checkout-form {
+  background-color: #000;
+}
+
+.submit-button-2 {
+  background-color: #2196c8;
+}
+
+.paypal-checkout-form {
+  background-color: #000;
+}
+
+.submit-button-3 {
+  background-color: #2196c8;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4851,14 +4884,6 @@
     margin-left: 0px;
   }
 
-  .testimonial_block.mix.yelp._2008 {
-    padding: 15px 0px;
-  }
-
-  .testimonial_block.mix.yelp._2009 {
-    padding: 15px 0px;
-  }
-
   .testimonial_block.mix.yelp._2010 {
     padding: 15px 0px;
   }
@@ -4916,10 +4941,6 @@
     height: 35px;
     margin-left: auto;
     float: none;
-  }
-
-  .testimonial_location {
-    margin-left: 0px;
   }
 
   .testimonial_source {
