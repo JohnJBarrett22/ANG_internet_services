@@ -2352,13 +2352,12 @@
   display: block;
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fafafa;
   font-size: 35px;
   line-height: 35px;
   font-weight: 700;
   text-align: center;
-  text-shadow: 1px 1px 1px #3898ec;
 }
 
 .services_para {
@@ -2573,7 +2572,6 @@
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  text-shadow: 1px 1px 1px #3898ec;
 }
 
 ._360_frame_block {
@@ -2988,7 +2986,7 @@
   background-size: cover;
 }
 
-.ryu_button_service {
+.a-g_button_service {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3007,7 +3005,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #3898ec;
+  background-color: #2196c8;
   font-size: 14px;
   text-align: center;
   text-shadow: none;
@@ -3555,7 +3553,7 @@
   font-weight: 400;
 }
 
-.section {
+.partners_section {
   height: 20vh;
   padding: 25px 0px;
   background-color: #333;
@@ -3830,7 +3828,7 @@
     margin-top: 40px;
   }
 
-  .ryu_button_service {
+  .a-g_button_service {
     margin-bottom: 0px;
   }
 
