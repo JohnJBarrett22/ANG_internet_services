@@ -2285,7 +2285,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #faa43a;
+  background-color: #de1f27;
   font-size: 14px;
   text-align: center;
 }
@@ -2339,6 +2339,7 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .nav_link.w--current {
@@ -3005,7 +3006,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #2196c8;
+  background-color: #faa43a;
   font-size: 14px;
   text-align: center;
   text-shadow: none;
@@ -3683,6 +3684,22 @@
   background-color: #2196c8;
 }
 
+.hover_link {
+  padding: 0px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hover_link.w--current {
+  color: #2196c8;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1280px) {
   .about_section {
     padding-top: 125px;
@@ -3988,7 +4005,7 @@
   }
 
   .navbar {
-    background-color: #fafafa;
+    background-color: #000;
   }
 
   .about_section {
@@ -4096,10 +4113,10 @@
 
   ._2_block_row {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .services_content_h3 {
@@ -4268,6 +4285,10 @@
   .section_h3 {
     margin-top: 7px;
   }
+
+  .text-block-5 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4413,10 +4434,10 @@
 
   ._2_block_row {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   ._2_block_row.margin_bottom {
@@ -4425,6 +4446,11 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .services_content_h3 {
+    font-size: 24px;
+    line-height: 24px;
   }
 
   .information_technology_icons {
@@ -4465,7 +4491,7 @@
   }
 
   .nav_bar_h3 {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 24px;
   }
 
@@ -4683,6 +4709,10 @@
   .user_2 {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .text-block-5 {
+    font-size: 14px;
   }
 }
 
@@ -5012,6 +5042,7 @@
   }
 
   .list-2 {
+    padding-left: 0px;
     text-align: center;
   }
 
