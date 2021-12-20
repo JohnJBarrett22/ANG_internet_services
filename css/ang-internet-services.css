@@ -1800,7 +1800,6 @@
   font-weight: 700;
   text-align: center;
   letter-spacing: -0.5px;
-  text-shadow: 1px 1px 1px #2196c8;
 }
 
 ._2_block {
@@ -1876,6 +1875,7 @@
   font-size: 80px;
   line-height: 80px;
   text-align: center;
+  text-shadow: 0 0 10px #000;
 }
 
 .parallax_block_data {
@@ -1896,9 +1896,9 @@
 .a-g_tagline {
   font-family: Inter, sans-serif;
   color: #fafafa;
-  font-style: italic;
+  font-style: normal;
   text-align: center;
-  text-shadow: 2px 2px 3px #2196c8;
+  text-shadow: 0 0 10px #000;
 }
 
 ._4_block_row {
@@ -1942,11 +1942,10 @@
 .footer_h3 {
   margin-bottom: 0px;
   border: 1px none #000;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   font-size: 16px;
   text-align: left;
-  text-shadow: 1px 1px 1px #87bf40;
 }
 
 .cards_grid {
@@ -1992,7 +1991,6 @@
   color: #fff;
   text-align: center;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #2196c8;
 }
 
 .cards_para {
@@ -2183,10 +2181,9 @@
 .section_h2_left {
   margin-top: 15px;
   margin-bottom: 25px;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
   color: #fff;
   text-align: left;
-  text-shadow: 1px 1px 1px #2196c8;
 }
 
 .testimonial_block {
@@ -2285,7 +2282,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #de1f27;
+  background-color: #faa43a;
   font-size: 14px;
   text-align: center;
 }
@@ -3032,38 +3029,6 @@
   background-size: cover;
 }
 
-.services_img_block_3 {
-  width: 100%;
-  height: 600px;
-  background-image: url('../images/Picture_4.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.services_img_block_4 {
-  width: 100%;
-  height: 600px;
-  background-image: url('../images/Picture_4.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.services_img_block_5 {
-  width: 100%;
-  height: 600px;
-  background-image: url('../images/Picture_4.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.services_img_block_6 {
-  width: 100%;
-  height: 600px;
-  background-image: url('../images/Picture_4.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
 .service_card_link {
   color: #333;
   text-decoration: none;
@@ -3546,7 +3511,6 @@
   font-weight: 700;
   text-align: center;
   letter-spacing: -0.5px;
-  text-shadow: 1px 1px 1px #2196c8;
 }
 
 .text-block-5 {
@@ -3662,6 +3626,7 @@
 
 .bold-text-5 {
   font-family: Lato, sans-serif;
+  text-shadow: none;
 }
 
 .a-g_menu_drop {
@@ -3698,6 +3663,11 @@
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
+}
+
+.bold-text-6 {
+  font-family: Lato, sans-serif;
+  text-shadow: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4041,6 +4011,10 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
 
   .a-g_title {
@@ -4133,6 +4107,10 @@
     padding-top: 75px;
   }
 
+  .nav-menu {
+    background-color: #000;
+  }
+
   .services_h3_mobile {
     margin-top: 0px;
     font-size: 25px;
@@ -4178,6 +4156,10 @@
   .nav_bar_h3 {
     margin-top: 0px;
     padding-top: 0px;
+  }
+
+  .menu-button.w--open {
+    background-color: #000;
   }
 
   .service_area_section {
@@ -4288,6 +4270,10 @@
 
   .text-block-5 {
     display: none;
+  }
+
+  .a-g_menu_drop_link {
+    display: block;
   }
 }
 
@@ -5051,7 +5037,7 @@
   }
 
   .nav-menu {
-    background-color: #fafafa;
+    background-color: #000;
   }
 
   .services_picture_section_mobile {
@@ -5132,64 +5118,6 @@
     padding-right: 0px;
     padding-bottom: 0px;
     background-image: url('../images/remote_support_services.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.25;
-  }
-
-  .services_mobile_picture_block_cupping {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    background-image: url('../images/remote_support_services.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.25;
-  }
-
-  .services_mobile_picture_block_ear_seeds {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    border: 1px none #000;
-    background-image: url('../images/isaac_boudaie.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.25;
-  }
-
-  .services_mobile_picture_block_moxibustion {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    background-image: url('../images/remote_support_services.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.25;
-  }
-
-  .services_mobile_picture_block_infrared_treatment {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    margin-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    border: 1px none #000;
-    background-image: url('../images/motherboard_diagnostic_repair.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5312,6 +5240,10 @@
 
   .menu-button {
     padding-right: 0px;
+  }
+
+  .menu-button.w--open {
+    background-color: #000;
   }
 
   ._4_block_row_footer {
