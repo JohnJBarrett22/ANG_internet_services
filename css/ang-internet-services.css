@@ -2101,7 +2101,7 @@
 
 ._65_block {
   width: 65%;
-  padding: 0px;
+  padding: 15px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -2120,6 +2120,7 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  background-color: #fff;
 }
 
 ._35_block.margin_right {
@@ -2964,7 +2965,7 @@
 
 .service_page_section {
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 
@@ -2976,10 +2977,11 @@
 
 .acu_img_block {
   width: 100%;
-  height: 300px;
+  height: 100%;
   background-image: url('../images/remote_support_services.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  opacity: 1;
 }
 
 .a-g_button_service {
@@ -3666,6 +3668,15 @@
 .bold-text-6 {
   font-family: Lato, sans-serif;
   text-shadow: none;
+}
+
+.service_hero_block {
+  height: 500px;
+}
+
+.form-block-2 {
+  padding: 15px;
+  color: #000;
 }
 
 @media screen and (min-width: 1280px) {
