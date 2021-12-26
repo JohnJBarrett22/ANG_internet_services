@@ -2115,7 +2115,7 @@
 ._35_block {
   width: 35%;
   margin: 0px;
-  padding: 0px;
+  padding: 15px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -3675,8 +3675,13 @@
 }
 
 .form-block-2 {
-  padding: 15px;
+  padding: 0px;
   color: #000;
+}
+
+.heading {
+  color: #000;
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
