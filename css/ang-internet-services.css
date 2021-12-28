@@ -2115,6 +2115,7 @@
 
 ._35_block {
   width: 35%;
+  height: 100%;
   margin: 0px;
   padding: 25px;
   -webkit-box-flex: 1;
@@ -2968,7 +2969,7 @@
 .service_page_section {
   min-height: 100vh;
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
 }
 
 .service_detail_h2 {
@@ -2977,7 +2978,7 @@
   line-height: 25px;
 }
 
-.acu_img_block {
+.data_backup_img_block {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3741,6 +3742,62 @@
   background-attachment: fixed;
 }
 
+.disaster_recovery_img_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  background-image: url('../images/disaster_recovery_and_bcp_los_angeles_ca.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 1;
+}
+
+.ip_video_surveillance_img_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  background-image: url('../images/security_camera_monitoring_los_angeles_ca.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  opacity: 1;
+}
+
 @media screen and (min-width: 1280px) {
   .about_section {
     padding-top: 125px;
@@ -4061,6 +4118,7 @@
 
   .section_h2 {
     margin-top: 7px;
+    line-height: 45px;
   }
 
   ._2_block {
@@ -4137,6 +4195,15 @@
   .industries_section {
     padding-top: 75px;
     padding-bottom: 75px;
+  }
+
+  ._65_block {
+    width: 100%;
+    padding: 0px;
+  }
+
+  ._35_block {
+    display: none;
   }
 
   .testimonial_para {
@@ -4290,6 +4357,10 @@
     padding-bottom: 75px;
   }
 
+  .service_page_section {
+    padding-bottom: 0px;
+  }
+
   .sitemap_h2 {
     font-size: 18px;
     line-height: 24px;
@@ -4355,6 +4426,10 @@
 @media screen and (max-width: 767px) {
   .hero_section {
     padding-top: 40px;
+  }
+
+  .section_h2 {
+    line-height: 45px;
   }
 
   ._2_block {
@@ -4448,6 +4523,10 @@
 
   .footer_icons {
     text-align: center;
+  }
+
+  ._65_block {
+    padding: 0px;
   }
 
   ._65_block.margin_left {
@@ -4699,6 +4778,10 @@
     height: 450px;
   }
 
+  .service_page_section {
+    padding-bottom: 0px;
+  }
+
   .sitemap_h2 {
     font-size: 18px;
     line-height: 24px;
@@ -4915,9 +4998,11 @@
   }
 
   .footer_link {
+    width: 100%;
     font-size: 15px;
     line-height: 22.5px;
     text-align: center;
+    list-style-type: none;
   }
 
   .link_white {
@@ -4953,6 +5038,10 @@
   .industries_section {
     display: none;
     height: 4500px;
+  }
+
+  ._65_block {
+    padding: 0px;
   }
 
   ._65_block.margin_left {
@@ -5064,6 +5153,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -5455,6 +5545,10 @@
     padding-bottom: 25px;
   }
 
+  .service_page_section {
+    padding-bottom: 0px;
+  }
+
   .services_options_section {
     display: none;
   }
@@ -5548,6 +5642,11 @@
     padding-top: 14px;
     font-size: 30px;
     line-height: 30px;
+  }
+
+  .list-4 {
+    width: 100%;
+    padding-left: 0px;
   }
 }
 
