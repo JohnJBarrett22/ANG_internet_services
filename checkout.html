@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Jan 04 2022 07:39:10 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Mon Aug 15 2022 06:27:31 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61a8789e2e274e6de8acf308" data-wf-site="61a5d252a3b7bc2b96d090d4" lang="en">
 <head>
   <meta charset="utf-8">
@@ -141,10 +141,10 @@ drift.load('r73nxaxiv89c');
     <div class="w-commerce-commercelayoutcontainer w-container">
       <div class="w-commerce-commercelayoutmain">
         <div data-node-type="commerce-cart-quick-checkout-actions">
-          <a data-node-type="commerce-cart-apple-pay-button" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton">
+          <a data-node-type="commerce-cart-apple-pay-button" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Apple Pay" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton">
             <div></div>
           </a>
-          <a data-node-type="commerce-cart-quick-checkout-button" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
+          <a data-node-type="commerce-cart-quick-checkout-button" role="button" tabindex="0" aria-haspopup="dialog" style="display:none" class="w-commerce-commercecartquickcheckoutbutton"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewbox="0 0 16 16">
               <defs>
                 <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
                 <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
@@ -179,19 +179,19 @@ drift.load('r73nxaxiv89c');
             <h4>Customer Info</h4>
             <div>* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Email *</label><input type="text" name="email" required="" class="w-commerce-commercecheckoutemailinput"></fieldset>
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Email *</label><input type="text" class="w-commerce-commercecheckoutemailinput" name="email" required=""></fieldset>
         </form>
         <form data-node-type="commerce-checkout-shipping-address-wrapper" class="w-commerce-commercecheckoutshippingaddresswrapper">
           <div class="w-commerce-commercecheckoutblockheader">
             <h4>Shipping Address</h4>
             <div>* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Full Name *</label><input type="text" name="name" required="" class="w-commerce-commercecheckoutshippingfullname"><label class="w-commerce-commercecheckoutlabel">Street Address *</label><input type="text" name="address_line1" required="" class="w-commerce-commercecheckoutshippingstreetaddress"><input type="text" name="address_line2" class="w-commerce-commercecheckoutshippingstreetaddressoptional">
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Full Name *</label><input type="text" class="w-commerce-commercecheckoutshippingfullname" name="name" required=""><label class="w-commerce-commercecheckoutlabel">Street Address *</label><input type="text" class="w-commerce-commercecheckoutshippingstreetaddress" name="address_line1" required=""><input type="text" class="w-commerce-commercecheckoutshippingstreetaddressoptional" name="address_line2">
             <div class="w-commerce-commercecheckoutrow">
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">City *</label><input type="text" name="address_city" required="" class="w-commerce-commercecheckoutshippingcity"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">State/Province</label><input type="text" name="address_state" class="w-commerce-commercecheckoutshippingstateprovince"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">Zip/Postal Code *</label><input type="text" name="address_zip" required="" data-node-type="commerce-checkout-shipping-zip-field" class="w-commerce-commercecheckoutshippingzippostalcode"></div>
-            </div><label class="w-commerce-commercecheckoutlabel">Country *</label><select name="address_country" class="w-commerce-commercecheckoutshippingcountryselector">
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">City *</label><input type="text" class="w-commerce-commercecheckoutshippingcity" name="address_city" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">State/Province</label><input type="text" class="w-commerce-commercecheckoutshippingstateprovince" name="address_state"></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">Zip/Postal Code *</label><input type="text" data-node-type="commerce-checkout-shipping-zip-field" class="w-commerce-commercecheckoutshippingzippostalcode" name="address_zip" required=""></div>
+            </div><label class="w-commerce-commercecheckoutlabel">Country *</label><select class="w-commerce-commercecheckoutshippingcountryselector" name="address_country">
               <option value="AF">Afghanistan</option>
               <option value="AX">Aland Islands</option>
               <option value="AL">Albania</option>
@@ -484,7 +484,7 @@ drift.load('r73nxaxiv89c');
                 </div>
               </div>
             </div>
-            <div class="w-commerce-commercecheckoutbillingaddresstogglewrapper"><input type="checkbox" checked="" id="billing-address-toggle" data-node-type="commerce-checkout-billing-address-toggle-checkbox" class="w-commerce-commercecheckoutbillingaddresstogglecheckbox"><label for="billing-address-toggle" class="w-commerce-commercecheckoutbillingaddresstogglelabel">Billing address same as shipping</label></div>
+            <div class="w-commerce-commercecheckoutbillingaddresstogglewrapper"><input type="checkbox" id="billing-address-toggle" data-node-type="commerce-checkout-billing-address-toggle-checkbox" class="w-commerce-commercecheckoutbillingaddresstogglecheckbox" checked=""><label for="billing-address-toggle" class="w-commerce-commercecheckoutbillingaddresstogglelabel">Billing address same as shipping</label></div>
           </fieldset>
         </div>
         <form data-node-type="commerce-checkout-billing-address-wrapper" style="display:none" class="w-commerce-commercecheckoutbillingaddresswrapper">
@@ -492,12 +492,12 @@ drift.load('r73nxaxiv89c');
             <h4>Billing Address</h4>
             <div>* Required</div>
           </div>
-          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Full Name *</label><input type="text" name="name" required="" class="w-commerce-commercecheckoutbillingfullname"><label class="w-commerce-commercecheckoutlabel">Street Address *</label><input type="text" name="address_line1" required="" class="w-commerce-commercecheckoutbillingstreetaddress"><input type="text" name="address_line2" class="w-commerce-commercecheckoutbillingstreetaddressoptional">
+          <fieldset class="w-commerce-commercecheckoutblockcontent"><label class="w-commerce-commercecheckoutlabel">Full Name *</label><input type="text" class="w-commerce-commercecheckoutbillingfullname" name="name" required=""><label class="w-commerce-commercecheckoutlabel">Street Address *</label><input type="text" class="w-commerce-commercecheckoutbillingstreetaddress" name="address_line1" required=""><input type="text" class="w-commerce-commercecheckoutbillingstreetaddressoptional" name="address_line2">
             <div class="w-commerce-commercecheckoutrow">
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">City *</label><input type="text" name="address_city" required="" class="w-commerce-commercecheckoutbillingcity"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">State/Province</label><input type="text" name="address_state" class="w-commerce-commercecheckoutbillingstateprovince"></div>
-              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">Zip/Postal Code *</label><input type="text" name="address_zip" required="" data-node-type="commerce-checkout-billing-zip-field" class="w-commerce-commercecheckoutbillingzippostalcode"></div>
-            </div><label class="w-commerce-commercecheckoutlabel">Country *</label><select name="address_country" class="w-commerce-commercecheckoutbillingcountryselector">
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">City *</label><input type="text" class="w-commerce-commercecheckoutbillingcity" name="address_city" required=""></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">State/Province</label><input type="text" class="w-commerce-commercecheckoutbillingstateprovince" name="address_state"></div>
+              <div class="w-commerce-commercecheckoutcolumn"><label class="w-commerce-commercecheckoutlabel">Zip/Postal Code *</label><input type="text" data-node-type="commerce-checkout-billing-zip-field" class="w-commerce-commercecheckoutbillingzippostalcode" name="address_zip" required=""></div>
+            </div><label class="w-commerce-commercecheckoutlabel">Country *</label><select class="w-commerce-commercecheckoutbillingcountryselector" name="address_country">
               <option value="AF">Afghanistan</option>
               <option value="AX">Aland Islands</option>
               <option value="AL">Albania</option>
@@ -754,7 +754,7 @@ drift.load('r73nxaxiv89c');
           </div>
           <fieldset class="w-commerce-commercecheckoutblockcontent">
             <script type="text/x-wf-template" id="wf-template-61a8789e2e274ea579acf309000000000086"></script>
-            <div class="w-commerce-commercecheckoutorderitemslist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-61a8789e2e274ea579acf309000000000086"></div>
+            <div role="list" class="w-commerce-commercecheckoutorderitemslist" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-61a8789e2e274ea579acf309000000000086"></div>
           </fieldset>
         </div>
       </div>
@@ -783,7 +783,7 @@ drift.load('r73nxaxiv89c');
         </div>
         <a href="#" value="Place Order" data-node-type="commerce-checkout-place-order-button" class="w-commerce-commercecheckoutplaceorderbutton submit-button-2" data-loading-text="Placing Order...">Place Order</a>
         <div data-node-type="commerce-checkout-error-state" style="display:none" class="w-commerce-commercecheckouterrorstate">
-          <div class="w-checkout-error-msg" data-w-info-error="There was an error processing your customer info.  Please try again, or contact us if you continue to have problems." data-w-shipping-error="Sorry. We can’t ship your order to the address provided." data-w-billing-error="Your payment could not be completed with the payment information provided.  Please make sure that your card and billing address information is correct, or try a different payment card, to complete this order.  Contact us if you continue to have problems." data-w-payment-error="There was an error processing your payment.  Please try again, or contact us if you continue to have problems." data-w-pricing-error="The prices of one or more items in your cart have changed. Please refresh this page and try again." data-w-minimum-error="The order minimum was not met. Add more items to your cart to continue." data-w-extras-error="A merchant setting has changed that impacts your cart. Please refresh and try again." data-w-product-error="One or more of the products in your cart have been removed. Please refresh the page and try again." data-w-invalid-discount-error="This discount is invalid." data-w-expired-discount-error="This discount is no longer available." data-w-usage-reached-discount-error="This discount is no longer available." data-w-requirements-not-met-error="Your order does not meet the requirements for this discount.">There was an error processing your customer info. Please try again, or contact us if you continue to have problems.</div>
+          <div aria-live="polite" class="w-checkout-error-msg" data-w-info-error="There was an error processing your customer info.  Please try again, or contact us if you continue to have problems." data-w-shipping-error="Sorry. We can’t ship your order to the address provided." data-w-billing-error="Your payment could not be completed with the payment information provided.  Please make sure that your card and billing address information is correct, or try a different payment card, to complete this order.  Contact us if you continue to have problems." data-w-payment-error="There was an error processing your payment.  Please try again, or contact us if you continue to have problems." data-w-pricing-error="The prices of one or more items in your cart have changed. Please refresh this page and try again." data-w-minimum-error="The order minimum was not met. Add more items to your cart to continue." data-w-extras-error="A merchant setting has changed that impacts your cart. Please refresh and try again." data-w-product-error="One or more of the products in your cart have been removed. Please refresh the page and try again." data-w-invalid-discount-error="This discount is invalid." data-w-expired-discount-error="This discount is no longer available." data-w-usage-reached-discount-error="This discount is no longer available." data-w-requirements-not-met-error="Your order does not meet the requirements for this discount.">There was an error processing your customer info. Please try again, or contact us if you continue to have problems.</div>
         </div>
       </div>
     </div>
